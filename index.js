@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
+// prompts for readme file 
 function writeToFile() {
     inquirer
         .prompt([
@@ -52,7 +54,7 @@ function writeToFile() {
                 message: 'What is your E-Mail Address?',
                 name: 'email',
             },
-        ])
+        ]) // creates readme file and where to put information inputs all responses
         .then((response) => {
             fs.appendFile('README.md', `# Title: ${response.title}
 ![License](https://img.shields.io/badge/License-${response.license}-blue.svg)
@@ -95,7 +97,7 @@ ${response.test}
 ## Do you have additional questions? You can reach me by GitHub or E-Mail.
 GitHub | https://github.com/${response.github}
 E-Mail | (${response.email})`,
-                (err) =>
+                (err) => // console.log confirming the README has errored OR has been created
                     err ? console.error(err) : console.log('README Created!')
             );
         }
