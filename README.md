@@ -1,41 +1,16 @@
-# Title: Title test
-![License](https://img.shields.io/badge/License-APACHE_2.0-blue.svg)
+# 09 Node.js README Generator
 
-# Table of Contents 
-[Description](#Description)
-[Installation Instructions](#Installation%20Instructions)
-[Usage Information](#Usage%20Information)
-[Contribution Guidelines](#Contribution%20Guidelines)
-[Testing](#Testing)
-[Additional Questions?](#Do%20you%20have%20additional%20questions?%20You%20can%20reach%20me%20by%20GitHub%20or%20E-Mail)
+<img src="screenshot.png" width="500" height="500"> 
 
+## Description
 
+- Generates a professional README File using Node.js
+- Creates Title, Table of Contents, Description, Installation, Usage, License, Contribution, Testing, Contact Me
+- If user has additional questions my GitHub and Email is listed in README
 
-## Description: 
+## Usage
 
-here is a small description
+User uses Node.js to create a professional README file. Questions are asked for the README file and then user inputs answers in. After all questions have been answered, a README file is generated at the end. 
 
-## Installation Instructions: 
-What command should be run to install dependencies?
-npm i
-
-## Usage Information: 
-
-the usage information to this is here
-
-## License: 
-
-This project is licensed under the APACHE_2.0 license.
-
-## Contribution Guidelines: 
-
-there is none
-
-## Testing: 
-What command should be run to run tests?
-npm test
-
-
-## Do you have additional questions? You can reach me by GitHub or E-Mail.
-GitHub | https://github.com/htranchung
-E-Mail | (tranchung@live.com)
+## Credits
+N/A
